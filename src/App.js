@@ -1,17 +1,19 @@
-
-// App.js
 import React from 'react';
 import Card from './card';
 
 function App() {
     return (
-        <div className="App">
-            <h1>hello react</h1>
-            <Card/>
+        <div>
+            <Card title="hi" />
+
+            <Card text="how are you?" />
+
+            <Card title="hi" text="how are you?" />
         </div>
     );
 }
 
 export default App;
+
 
 
