@@ -1,17 +1,16 @@
-
-// App.js
 import React from 'react';
-import Card from './card';
+import Progress from './progress';
 
 function App() {
     return (
-        <div className="App">
-            <h1>hello react</h1>
-            <Card/>
+        <div>
+            <h1>Пример использования прогресс-бара</h1>
+            <Progress percentage={40} /> { }
         </div>
     );
 }
 
 export default App;
+
 
 
