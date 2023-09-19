@@ -1,17 +1,16 @@
-
-// App.js
 import React from 'react';
-import Card from './card';
+import Allert from './Allert';
 
-function App() {
+function MyComponent() {
     return (
-        <div className="App">
-            <h1>hello react</h1>
-            <Card/>
+        <div>
+            <h1>Пример использования компонента Alert</h1>
+            <Allert type="warning" text="what is love?" />
         </div>
     );
 }
 
-export default App;
+export default MyComponent;
+
 
 
