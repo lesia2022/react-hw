@@ -1,17 +1,19 @@
-
-// App.js
 import React from 'react';
-import Card from './card';
+import ListGroup from './ListGroup';
 
 function App() {
     return (
-        <div className="App">
-            <h1>hello react</h1>
-            <Card/>
+        <div>
+            {}
+            <ListGroup>
+                <p>one</p>
+                <p>two</p>
+            </ListGroup>
         </div>
     );
 }
 
 export default App;
+
 
 
